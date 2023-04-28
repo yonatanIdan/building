@@ -1,0 +1,92 @@
+{
+  "id": 1,
+  "details": {
+    "floor": 2,
+    "department": 6,
+    "people": [
+      {
+        "id": 2,
+        "ENname": "Yonatan",
+        "ENlastname": "Idan",
+        "HEname": "יונתן",
+        "HElastname": "עידאן",
+        "email": "yonatan@gmail.com",
+        "password": "encoded password",
+        "phone": "+97250-3100614",
+        "active": true,
+        "timestamp": "date",
+        "deleted": false,
+        "permissions": ["admin", "devloper", "user", "treasurer"],
+        "role": "admin"
+      },
+      {
+        "id": 3,
+        "name": "Liem",
+        "lastname": "Idan",
+        "HEname": "ליאם",
+        "HElastname": "עידאן",
+        "email": "liemdadon@gmail.com",
+        "password": "encoded password",
+        "phone": "+97254-5990445",
+        "active": true,
+        "timestamp": "date",
+        "deleted": false,
+        "permissions": ["user", "devloper"],
+        "role": "admin"
+      }
+    ],
+    "owner": true,
+    "parking": [
+      {
+        "position": "upsters",
+        "number": 13
+      }
+    ],
+    "payments": [
+      {
+        "type": "house committee",
+        "numberPayments": 12,
+        "year": 2023,
+        "months": [
+          {
+            "month": 1,
+            "payment": 150,
+            "paid": 150
+          },
+          {
+            "month": 2,
+            "payment": 150,
+            "paid": 160
+          }
+        ]
+      }
+    ],
+    "religion": true,
+    "active": true,
+    "timestamp": "date",
+    "deleted": false,
+    "issues": [
+      {
+        "type": "question",
+        "deleted": false,
+        "title": "למה יש רעש?",
+        "body": "אני שומע רעשים מלמעלה",
+        "category": "questions",
+        "likes": 0,
+        "dislikes": 0,
+        "locked": false,
+        "answers": [
+          {
+            "type": "answer",
+            "title": "אני חושב שהם תולים תמונה",
+            "body": "",
+            "likes": 0,
+            "dislikes": 0,
+            "userId": 15,
+            "deleted": false
+          }
+        ]
+      }
+    ]
+  }
+}
